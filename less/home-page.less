@@ -14,9 +14,19 @@
     margin-bottom: 0;
     padding-bottom: 20px;
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .header-title {
       align-self: center;
       padding-bottom: 0;
+
+      @media @mobile {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
     }
   }
 
@@ -55,10 +65,13 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
+      display: flex;
+      flex-wrap: wrap;
 
       @media @mobile {
         width: 100%;
         padding: 0;
+        justify-content: center;
       }
 
       img {
@@ -77,13 +90,20 @@
       width: 100%;
       justify-content: center;
       padding: 0;
-      // flex-direction: column-reverse;
+      flex-direction: column-reverse;
       padding-bottom: 30px;
     }
 
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+
+      @media @mobile {
+        justify-content: center;
+        padding: 0;
+        width: 90%;
+        align-self: center;
+      }
     }
 
     .img-content {

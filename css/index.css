@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px dashed black;
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+.header .header-title {
+  align-self: center;
+  padding-bottom: 0;
+}
+.header .navigation {
+  align-self: center;
+}
+.header .navigation a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-size: 1.5rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

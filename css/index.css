@@ -188,6 +188,16 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home .btn {
+  color: white;
+  background-color: #00cac0;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px;
+  font-size: 1.6rem;
+}
 .home .header {
   display: flex;
   flex-wrap: wrap;

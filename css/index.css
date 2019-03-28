@@ -198,6 +198,44 @@ img {
   padding: 12px;
   font-size: 1.6rem;
 }
+.home .formdiv {
+  margin: 20px;
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .home .formdiv {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .home .formdiv .contact-form {
+    justify-content: center;
+  }
+}
+.home .formdiv .contact-form input[type=text],
+.home .formdiv .contact-form [type=tel],
+.home .formdiv .contact-form [type=email] {
+  width: 75%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.home .formdiv .contact-form input[type=submit] {
+  color: white;
+  background-color: #17A2B8;
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px;
+  font-size: 1.6rem;
+}
+.home .formdiv .contact-form input {
+  margin-bottom: 20px;
+}
+.home .formdiv .contact-form textarea {
+  width: 75%;
+  height: 90px;
+}
 .home .header {
   display: flex;
   flex-wrap: wrap;

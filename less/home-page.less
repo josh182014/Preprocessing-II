@@ -4,6 +4,45 @@
     .main-btn();
   }
 
+  .formdiv {
+    margin: 20px;
+    width: 50%;
+
+    @media @mobile {
+      width: 90%;
+    }
+
+    .contact-form {
+
+      @media @mobile {
+        justify-content: center;
+      }
+
+
+      input[type=text],[type=tel],[type=email] {
+        width: 75%;
+        height: 30px;
+        margin-bottom: 20px;
+        
+      }
+
+      input[type=submit] {
+        .main-btn(#17A2B8, 75%, 12px, 1.6rem);
+
+      }
+
+      input {
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        width: 75%;
+        height: 90px;
+      }
+
+    }
+  }
+
 
   .header {
     display: flex;
